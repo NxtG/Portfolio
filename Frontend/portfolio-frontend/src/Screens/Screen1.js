@@ -1,10 +1,8 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import "../Styles/style.css";
-// import Button from "../Commons/Button.js";
 
 function Screen1() {
-    
+   
     return (
         <div className="">
             <Navbar />
