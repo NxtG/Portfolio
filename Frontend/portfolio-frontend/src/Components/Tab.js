@@ -20,18 +20,17 @@ const Tab = () => {
         { text: 'Database', href: '#', isActive: false },
         { text: 'Full Stacks', href: '#', isActive: false },
         { text: 'Cloud', href: '#', isActive: false },
-        { text: 'Testing', href: '#', isActive: false },
-        { text: 'Tools', href: '#', isActive: false },
+        { text: 'Testing', href: '#', isActive: false }
 
     ])
 
     return (
         <div className="text-sm mx-auto px-5 my-5 font-medium sm:mx-5 text-gray-500  ">
-            <ul className="flex flex-wrap justify-evenly mb-10 px-32">
+            <ul className="flex flex-wrap justify-start md:justify-center mb-10 px-5 md:px-32 ">
                 {menuItems.map((item, index) => (
                     <li key={index} className="me-2">
-                        <a
-                            href={item.href}
+                        <p
+                            
                             className={`inline-block  text-lg p-4  ${item.isActive
                                 ? 'text-blue-600 border-b-2 border-blue-600 active dark:text-blue-500 dark:border-blue-500'
                                 : 'hover:text-blue-500 hover:border-blue-500 '
@@ -40,11 +39,12 @@ const Tab = () => {
                             onClick={() => handleClick(index)}
                         >
                             {item.text}
-                        </a>
+                        </p>
                     </li>
                 ))}
             </ul>
-            <div class="flex justify-evenly flex-wrap gap-2 px-40">
+            <div class="flex  flex-wrap justify-center gap-2 md:px-32">
+
                 <Tabbox />
                 <Tabbox />
                 <Tabbox />
