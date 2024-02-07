@@ -31,7 +31,7 @@ const ClientSection = () => {
 
     return (
         <section className="pt-8">
-            <div className=" border-solid border-b-2 pb-12">
+            <div className="pb-12">
                 <h2 className="text-4xl font-semibold text-center mb-6">
                     Clients
                 </h2>
