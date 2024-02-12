@@ -4,7 +4,7 @@ import Tab from '../Components/Tab'
 function Techstacks() {
     return (
         <div>
-            <section className="pt-8">
+            <section className="py-8">
                 <div className=" border-solid border-b-2 pb-12">
                     <h2 className="text-4xl font-semibold text-center text-grey mb-2">
                         Our Technologies
