@@ -7,7 +7,7 @@ function Screen1() {
         <div className="">
             <Navbar />
             <div className="flex flex-col mx-auto max-w-7xl px-4 py-6 pt-12 my-4 lg:flex-row  lg:px-8 items-center">
-                <div classNAme=" flex flex-col items-center justify-center md:w-1/2">
+                <div >
                     <h1 className="text-2xl md:text-5xl my-6">
                         <b>COMPLETE WEB DESIGN & DEVELOPMENT</b>
                     </h1>
