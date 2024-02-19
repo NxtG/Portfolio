@@ -24,7 +24,7 @@ function Team() {
     ];
     return (
         <div>
-            <section className="px-4 lg:px-8 mt-32 py-8 bg-gray-200">
+            <section className=" mt-32 py-8 bg-gray-200">
                 <div className="">
                     <h2 className="text-4xl font-semibold text-center text-grey mb-2">
                         Our Team
@@ -32,7 +32,7 @@ function Team() {
                     <p className="text-lg text-center mx-5 mb-6">
                         Nxt Gen have a quality and experienced team.
                     </p>
-                    <div className="">
+                    <div className=" pt-0 md:pt-10 mx-5 md:mx-16">
                         <TeamSwiper slides={images} />
                     </div>
                 </div>

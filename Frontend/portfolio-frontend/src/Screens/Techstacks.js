@@ -9,10 +9,10 @@ function Techstacks() {
                     <h2 className="text-4xl font-semibold text-center text-grey mb-2">
                         Our Technologies
                     </h2>
-                    <p className="text-lg text-center mx-5 mb-6">
+                    <p className="text-lg text-center mx-5 md:mx-16 mb-6">
                         Nxt Gen works under various modern technologies for effective, scalable, and future-proof custom software development.
                     </p>
-                    <div className="flex justify-center">
+                    <div className="flex mx-5 md:mx-16 lg:justify-center">
                         <Tab />
                     </div>
                 </div>

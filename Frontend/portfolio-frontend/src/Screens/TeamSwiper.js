@@ -18,16 +18,16 @@ const TeamSwiper = ({ slides }) => {
   return (
     <>
     
-          <div  className="flex lg:flex-row justify-center lg:px-24 flex-col">
+          <div  className="flex lg:flex-row justify-center flex-col">
             <div className="lg:w-2/4 md:text-center md:w-full">
               <img
                 src={slides[1].image}
                 alt={`slide-1`}
-                className=" md:border-solid md:border-6 md:border-black hidden md:block"
+                className=" hidden md:block"
               />
             </div>
-            <div className=" lg:w-2/4 lg:px-4 w-full px-0 py-4 lg:py-0">
-              <p className="text-justify">
+            <div className=" lg:w-2/4 w-full py-4 lg:py-0 lg:ms-4">
+              <p className="text-justify ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Consequuntur vitae eveniet inventore id laudantium
                 sequi delectus et odio! Ipsa possimus, enim excepturi

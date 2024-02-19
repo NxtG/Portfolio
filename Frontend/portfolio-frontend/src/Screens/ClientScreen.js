@@ -27,25 +27,29 @@ const ClientSection = () => {
             rating: 3,
             reviewerImage: "https://source.unsplash.com/random/200x200?sig=3",
         },
+
     ];
 
     return (
         <section className="pt-8">
             <div className="pb-12">
-                <h2 className="text-4xl font-semibold text-center mb-6">
+                <h2 className="text-4xl font-semibold text-center  mb-6">
                     Clients
                 </h2>
-                <div className="flex flex-wrap justify-center">
-                    {reviews.map((review, index) => (
-                        <Review
-                            key={index}
-                            reviewText={review.reviewText}
-                            reviewerName={review.reviewerName}
-                            reviewerCompany={review.reviewerCompany}
-                            rating={review.rating}
-                            reviewerImage={review.reviewerImage}
-                        />
-                    ))}
+                <div className="">
+
+                    <div className="flex flex-wrap justify-center">
+                        {reviews.map((review, index) => (
+                            <Review
+                                key={index}
+                                reviewText={review.reviewText}
+                                reviewerName={review.reviewerName}
+                                reviewerCompany={review.reviewerCompany}
+                                rating={review.rating}
+                                reviewerImage={review.reviewerImage}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

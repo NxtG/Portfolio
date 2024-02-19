@@ -29,8 +29,8 @@ const Tab = () => {
 
 
     return (
-        <div className="text-sm mx-auto px-5 my-5 font-medium sm:mx-5 text-gray-500  ">
-            <ul className="flex flex-wrap justify-start md:justify-center mb-10 px-5 md:px-32 ">
+        <div className="text-sm  my-5 font-medium  text-gray-500  ">
+            <ul className="flex flex-wrap mb-10 justify-center  ">
                 {menuItems.map((item, index) => (
                     <li key={index} className="me-2 cursor-pointer">
                         <p
@@ -47,10 +47,10 @@ const Tab = () => {
                     </li>
                 ))}
             </ul>
-            <div class="flex  flex-wrap justify-center gap-2 md:px-32">
-                {techStacks[currentTab].map((item) =>
+            <div class="flex  flex-wrap justify-center gap-4 md:gap-2 ">
+                {techStacks[currentTab].map((item,index) =>
 
-                    (<Tabbox Name={item.Name} url={item.url} />)
+                    (<Tabbox Name={item.Name} url={item.url} key={index} />)
                 )}
 
 
